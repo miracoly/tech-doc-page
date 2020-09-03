@@ -23,3 +23,49 @@ ul {
   color: #1a1a1a;
   padding-left: 20px;
 }
+
+li {
+  margin-top: 10px;
+}
+
+#navbar {
+  position: fixed;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  background-color: rgb(247, 247, 247);
+  border-right: 1px solid #ececec;
+}
+
+#main-doc {
+  position: absolute;
+  padding: 20px;
+  top: 0;
+  left: 360px;
+  max-width: 720px;
+}
+
+#navbar ul {
+  list-style: none;
+  padding: 0;
+}
+
+#navbar li {
+  padding-left: 15px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+#navbar a:hover {
+  color: rgb(109, 109, 109);
+}
+
+#navbar li:hover {
+  padding-left: 10px;
+  border-left: 5px solid rgb(109, 109, 109);
+}
